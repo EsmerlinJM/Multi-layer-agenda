@@ -1,0 +1,108 @@
+/*
+ESMERLIN JOEL MIESES
+2016-4379
+*/
+body {
+    background-image: url('../img/bg.png');
+    font-family: sans-serif;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgb(226, 221, 221);
+    padding: 20px;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 55%;
+}
+
+.content{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #ec2241;
+}
+    
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: #ec2241;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #bd152e;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.historial {
+    height: auto;
+    width: 80%;
+    background-color: #bd152e;
+    position: relative;
+    left: 5%;
+    background-color: rgb(226, 221, 221);
+}
+
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, .table th {
+    border: 1px solid rgb(226, 221, 221);
+    padding: 8px;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.space{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: scroll;
+    overflow: auto;
+    height: 250px;
+    overflow-x:hidden;
+    margin-bottom: 100px;
+}
+
+.table tr:hover {
+    background-color: #ec2241;
+    color: #fff;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ec2241;
+    color: #fff;
+}
+
+p {
+    line-height: 10px;
+}
